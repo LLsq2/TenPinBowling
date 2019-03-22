@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="American Bowling" >
+    <test name="Frame Tests">
+        <classes>
+            <class name="frame.FrameTests"/>
+        </classes>
+    </test>
+    <test name="Frame Logic Tests">
+        <classes>
+            <class name="frame.FrameLogicTests"/>
+        </classes>
+    </test>
+    <test name="Scoring Tests">
+        <classes>
+            <class name="scoring.ScoringRulesTests"/>
+        </classes>
+    </test>
+</suite>
