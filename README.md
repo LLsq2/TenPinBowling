@@ -4,13 +4,13 @@ Game for American Ten Pin Bowling
 Instructions:
 Assuming user has openJDK11 and Maven setup, run:
 
-> mvn clean package
+> mvn clean package <
 to build game
 
-> java -jar target/bowling-1.0-jar-with-dependencies.jar {list of rolls}
+> java -jar target/bowling-1.0-jar-with-dependencies.jar {list of rolls} <
 to run game
 
-> mvn clean test
+> mvn clean test <
 to run unit tests
 
 An example run would be:
